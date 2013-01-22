@@ -2,17 +2,22 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass cvpr
+\textclass iccv
+\begin_preamble
+\def\iccvPaperID{****}
+%\iccvfinalcopy
+%\setcounter{page}{4321}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
-\language_package default
+\language_package none
 \inputencoding auto
 \fontencoding global
 \font_roman default
 \font_sans default
 \font_typewriter default
-\font_default_family default
+\font_default_family rmdefault
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
@@ -69,40 +74,8 @@
 
 \begin_body
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-def
-\backslash
-cvprPaperID{****}
-\end_layout
-
-\begin_layout Plain Layout
-
-%
-\backslash
-cvprfinalcopy
-\end_layout
-
-\begin_layout Plain Layout
-
-%
-\backslash
-setcounter{page}{4321}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Title
-LaTeX Author Guidelines for CVPR Proceedings
+LaTeX Author Guidelines for ICCV Proceedings
 \end_layout
 
 \begin_layout Author

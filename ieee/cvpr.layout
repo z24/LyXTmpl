@@ -3,8 +3,9 @@
 # CVPR layout
 # Author : Youjie Zhou <youjiezhou@gmail.com>
 
-Format 4
-Input stdclass.inc
+Format  4
+Sides   1
+Columns 2
 
 ClassOptions
     Other "10pt,twocolumn,letterpaper"
@@ -15,7 +16,14 @@ Preamble
     \usepackage{times}
     \usepackage{amsmath}
     \usepackage{amssymb}
+    % enforce letterpaper
+    \setlength{\pdfpagewidth}{8.5in}
+    \setlength{\pdfpageheight}{11in}
+    % single spaces after periods
+    \frenchspacing
 EndPreamble
+
+Input article.layout
 
 NoStyle Chapter
 NoStyle Chapter*

@@ -1,0 +1,195 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass aaai
+\begin_preamble
+\pdfinfo
+{
+/Title (AAAI Template for LyX)
+/Subject (LyX Templates)
+/Author (Youjie Zhou)
+}
+  
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_title "AAAI Template for LyX"
+\pdf_author "Youjie Zhou"
+\pdf_subject "LyX Templates"
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The following packages are incompatible with aaai.sty and/or aaai.bst:
+\end_layout
+
+\begin_layout Plain Layout
+hyperref (for LyX: pdfinfo can be set at Document->Settings->LaTeX Preamble)
+\end_layout
+
+\begin_layout Plain Layout
+natbib
+\end_layout
+
+\begin_layout Plain Layout
+geometry
+\end_layout
+
+\begin_layout Plain Layout
+titlesec
+\end_layout
+
+\begin_layout Plain Layout
+layout
+\end_layout
+
+\begin_layout Plain Layout
+caption
+\end_layout
+
+\begin_layout Plain Layout
+T1 fontenc package (install the CM super fonts package instead) (for LyX:
+ Document->Settings->Font->LaTeX font encoding=None)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+AAAI Template 
+\begin_inset Newline newline
+\end_inset
+
+for LyX
+\end_layout
+
+\begin_layout Author
+First Author
+\begin_inset Newline newline
+\end_inset
+
+Institution
+\begin_inset Newline newline
+\end_inset
+
+Neverland
+\begin_inset Newline newline
+\end_inset
+
+Mars
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Abstract
+This is a dummy abstract.
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+blablabla.
+\end_layout
+
+\begin_layout Standard
+2nd paragraph.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+blablabla.
+\end_layout
+
+\begin_layout Standard
+We are done!
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "aaaiTmpl"
+options "aaai"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

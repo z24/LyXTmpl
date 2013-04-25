@@ -149,37 +149,14 @@ First line of institution2 address
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-{
-\backslash
-tt
-\backslash
-small
-\end_layout
-
-\end_inset
-
-
+\family typewriter
+\size small
 \begin_inset CommandInset href
 LatexCommand href
 name "firstauthor@i1.org"
 target "firstauthor@i1.org"
 type "mailto:"
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
 
 \end_inset
 
@@ -192,37 +169,14 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-\begin_inset ERT
-status open
 
-\begin_layout Plain Layout
-
-{
-\backslash
-tt
-\backslash
-small
-\end_layout
-
-\end_inset
-
-
+\family typewriter
+\size small
 \begin_inset CommandInset href
 LatexCommand href
 name "secondauthor@i2.org"
 target "secondauthor@i2.org"
 type "mailto:"
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-}
-\end_layout
 
 \end_inset
 

@@ -1,0 +1,27 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[article]{nips (NIPS paper)}
+# NIPS layout
+# Author : Youjie Zhou <youjiezhou@gmail.com>
+
+Format  4
+Sides   1
+Columns 1
+
+ClassOptions
+    Other "letterpaper"
+End
+
+Preamble
+    \usepackage{nips12submit_e}
+    \usepackage{times}
+    % enforce letterpaper
+    \setlength{\pdfpagewidth}{8.5in}
+    \setlength{\pdfpageheight}{11in}
+    % single spaces after periods
+    \frenchspacing
+EndPreamble
+
+Input article.layout
+
+NoStyle Chapter
+NoStyle Chapter*

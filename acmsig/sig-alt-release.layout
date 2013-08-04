@@ -1,0 +1,11 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[sig-alt-release]{sig-alt-release (ACM SIG short papers large foot)}
+# ACM SIG conferences layout
+# Author : Hangzai Luo <memcache@gmail.com>
+
+# Input general definitions
+Format 4
+Input stdclass.inc
+
+# Input SIG proceedings definitions
+Input sigStyles.inc

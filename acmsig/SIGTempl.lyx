@@ -1,0 +1,556 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass sig-alternate
+\begin_preamble
+\usepackage{times}
+\newcounter{copyrightbox} % to fix problems with new caption package
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\pdf_quoted_options "pdfstartview=FitH"
+\papersize letterpaper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 2
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Lyx Template for ACM SIG Conferences
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+thanks{You can add footnote here.
+ Generally funding support can be put here.
+ It seems the lyx 1.6+ outputs unnesessary command for footnote.
+ Thus put a ERT here and use thanks command directly.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+First Author
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Second Author
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Third Author
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{Massive Computing Institute}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{Massive Computing Institute}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{Dept of Computer Science}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{East China Normal University}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{East China Normal University}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{UNC-Charlotte}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{Shanghai, 200062, China}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{Shanghai, 200062, China}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+affaddr{Charlotte, NC 28223, USA}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+first@some.edu.cn
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+second@other.edu
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+third@alt.com
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Conference
+ACM Multimedia
+\end_layout
+
+\begin_layout ConferenceInfo
+'09, October 19-24, 2009, Beijing, China
+\end_layout
+
+\begin_layout CopyrightYear
+2009
+\end_layout
+
+\begin_layout crdata
+1-58113-737-0/03/0008
+\end_layout
+
+\begin_layout Abstract
+Put your abstract here.
+ And please remember to fix above data.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+category{I.2.6}{Artificial Intelligence}{Learning}[concept learning]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+category{I.3.6}{Computer Graphics}{Methodolgy and Techniques}[Interaction
+ Techniques]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Terms
+Algorithm, Experimentation
+\end_layout
+
+\begin_layout Keywords
+Informative Image, Imbalanced Classification
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Please first download the 4 sig latex class files and install in your latex
+ system properly.
+ Please install the latest version.
+ Or else the template may not work.
+ You can download the class files from ACM SIG's website.
+ You might find it at 
+\begin_inset CommandInset href
+LatexCommand href
+name "here"
+target "http://www.acm.org/sigs/publications/proceedings-templates"
+
+\end_inset
+
+.
+ I say 
+\begin_inset Quotes eld
+\end_inset
+
+might
+\begin_inset Quotes erd
+\end_inset
+
+ so you know what may happen in the future.
+ 
+\end_layout
+
+\begin_layout Standard
+You can smoothly change the document class among the 4 sig-* classes.
+ Just select the needed class in Document settings dialog.
+ Please note for different conferences and different type of papers, different
+ class is selected by the publisher.
+ Remeber that it is the publisher who decides which class is used for your
+ conference and paper type.
+ You must strictly follow their choice for camera-ready version of paper.
+ Generally speaking, poster and short papers may use class sig-alt-release
+ or sig-alt-release2, and regular papers may use class sig-alternate.
+ I say 
+\begin_inset Quotes eld
+\end_inset
+
+generally speaking
+\begin_inset Quotes erd
+\end_inset
+
+ so you know what may happen for your conference and paper type.
+\end_layout
+
+\begin_layout Standard
+For double blinded review, just remove the author section, the template
+ can reserve needed space.
+\end_layout
+
+\begin_layout Section
+Citations, Tables, Figures and Equations
+\end_layout
+
+\begin_layout Standard
+You can use citations like this 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "ImgExtract:DataExtract_Liu,ImgExtract:Survey"
+
+\end_inset
+
+.
+ Tables and figures can be referenced like: Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Dataset"
+
+\end_inset
+
+, and Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:perf"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Equations can be inline like 
+\begin_inset Formula $R_{j}\equiv\left(f_{i}=d\right)$
+\end_inset
+
+ or display like:
+\begin_inset Formula 
+\begin{equation}
+\alpha\left(R_{j}\right)=\frac{\left|\Omega^{+}\left(R_{j}\right)\right|}{\left|\Omega^{-}\left(R_{j}\right)\right|}<\varepsilon\frac{\left|\Omega^{+}\right|}{\left|\Omega^{-}\right|}\label{eq:Conf}
+\end{equation}
+
+\end_inset
+
+Display equations can be referenced like: Eq.
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Conf"
+
+\end_inset
+
+).
+ But you need to give it a name first.
+ Or else it won't be numbered like this:
+\begin_inset Formula 
+\[
+\widehat{R}=\arg\max_{R_{j}}\left\{ \left|\Omega^{-}\left(R_{j}\right)\right|\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "imge"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

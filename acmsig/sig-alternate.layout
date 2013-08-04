@@ -1,0 +1,11 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[sig-alternate]{sig-alternate (ACM SIG compact)}
+# ACM SIG conferences layout
+# Author : Hangzai Luo <memcache@gmail.com>
+
+# Input general definitions
+Format 3
+Input stdclass.inc
+
+# Input SIG proceedings definitions
+Input sigStyles.inc

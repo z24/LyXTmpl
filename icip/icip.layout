@@ -1,0 +1,31 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[article]{icip (ICIP paper)}
+# ICIP layout
+# Author : Youjie Zhou <jmpopush@gmail.com>
+
+Format  4
+Sides   1
+Columns 2
+
+Preamble
+    \usepackage{spconf}
+EndPreamble
+
+Input article.layout
+
+NoStyle Chapter
+NoStyle Chapter*
+
+Style Keywords
+	InTitle				  0
+	Margin                First_Dynamic
+	NextNoIndent          1
+	LatexType             Command
+	LatexName             keywords
+	LabelType             Static
+	LabelSep              M
+	LabelString           "Keywords:"
+	LabelFont
+	  Series              Bold
+	EndFont
+End

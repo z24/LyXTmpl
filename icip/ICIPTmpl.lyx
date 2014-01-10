@@ -1,0 +1,610 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass icip
+\begin_preamble
+% spconf.sty is special
+% \name and \address must be placed before \maketitle
+\name{Author(s) Name(s)}
+\address{Author Affiliation(s)}
+% For example:
+% ------------
+%\address{School\\
+%	Department\\
+%	Address}
+%
+% Two addresses (uncomment and modify for two-address case).
+% ----------------------------------------------------------
+%\twoauthors
+%  {A. Author-one, B. Author-two\sthanks{Thanks to XYZ agency for funding.}}
+%	{School A-B\\
+%	Department A-B\\
+%	Address A-B}
+%  {C. Author-three, D. Author-four\sthanks{The fourth author performed the work
+%	while at ...}}
+%	{School C-D\\
+%	Department C-D\\
+%	Address C-D}
+
+% specific defs for this template
+\def\x{{\mathbf x}}
+\def\L{{\cal L}}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding auto
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_amsmath 2
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+AUTHOR GUIDELINES FOR ICIP 2014 PROCEEDINGS MANUSCRIPTS
+\end_layout
+
+\begin_layout Abstract
+The abstract should appear at the top of the left-hand column of text, about
+ 0.5 inch (12 mm) below the title area and no more than 3.125 inches (80 mm)
+ in length.
+ Leave a 0.5 inch (12 mm) space between the end of the abstract and the beginning
+ of the main text.
+ The abstract should contain about 100 to 150 words, and should be identical
+ to the abstract text submitted electronically along with the paper cover
+ sheet.
+ All manuscripts must be in English, printed in black ink.
+ 
+\end_layout
+
+\begin_layout Keywords
+One, two, three, four, five
+\end_layout
+
+\begin_layout Section
+Introduction
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:intro"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These guidelines include complete descriptions of the fonts, spacing, and
+ related information for producing your proceedings manuscripts.
+ Please follow them and if you have any questions, direct them 
+\family typewriter
+info@icip2014.org
+\family default
+.
+\end_layout
+
+\begin_layout Section
+Formatting your paper
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:format"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All printed material, including text, illustrations, and charts, must be
+ kept within a print area of 7 inches (178 mm) wide by 9 inches (229 mm)
+ high.
+ Do not write or print anything outside the print area.
+ The top margin must be 1 inch (25 mm), except for the title page, and the
+ left margin must be 0.75 inch (19 mm).
+ All 
+\shape italic
+text
+\shape default
+ must be in a two-column format.
+ Columns are to be 3.39 inches (86 mm) wide, with a 0.24 inch (6 mm) space
+ between them.
+ Text must be fully justified.
+\end_layout
+
+\begin_layout Section
+PAGE TITLE SECTION
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:pagestyle"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The paper title (on the first page) should begin 1.38 inches (35 mm) from
+ the top edge of the page, centered, completely capitalized, and in Times
+ 14-point, boldface type.
+ The authors' name(s) and affiliation(s) appear below the title in capital
+ and lower case letters.
+ Papers with multiple authors and affiliations may require two or more lines
+ for this information.
+ Please note that papers should not be submitted blind; include the authors'
+ names on the PDF.
+\end_layout
+
+\begin_layout Section
+TYPE-STYLE AND FONTS
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:typestyle"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To achieve the best rendering both in printed proceedings and electronic
+ proceedings, we strongly encourage you to use Times-Roman font.
+ In addition, this will give the proceedings a more uniform look.
+ Use a font that is no smaller than nine point type throughout the paper,
+ including figure captions.
+\end_layout
+
+\begin_layout Standard
+In nine point type font, capital letters are 2 mm high.
+ 
+\series bold
+If you use the smallest point size, there should be no more than 3.2 lines/cm
+ (8 lines/inch) vertically.
+
+\series default
+ This is a minimum spacing; 2.75 lines/cm (7 lines/inch) will make the paper
+ much more readable.
+ Larger type sizes require correspondingly larger vertical spacing.
+ Please do not double-space your paper.
+ TrueType or Postscript Type 1 fonts are preferred.
+\end_layout
+
+\begin_layout Standard
+The first paragraph in each section should not be indented, but all the
+ following paragraphs within the section should be indented as these paragraphs
+ demonstrate.
+\end_layout
+
+\begin_layout Section
+MAJOR HEADINGS
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:majhead"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Major headings, for example, 
+\begin_inset Quotes eld
+\end_inset
+
+1.
+ Introduction
+\begin_inset Quotes erd
+\end_inset
+
+, should appear in all capital letters, bold face if possible, centered
+ in the column, with one blank line before, and one blank line after.
+ Use a period (
+\begin_inset Quotes eld
+\end_inset
+
+.
+\begin_inset Quotes erd
+\end_inset
+
+) after the heading number, not a colon.
+\end_layout
+
+\begin_layout Subsection
+Subheadings
+\begin_inset CommandInset label
+LatexCommand label
+name "ssec:subhead"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Subheadings should appear in lower case (initial word capitalized) in boldface.
+ They should start at the left margin on a separate line.
+\end_layout
+
+\begin_layout Subsubsection
+Sub-subheadings
+\begin_inset CommandInset label
+LatexCommand label
+name "sssec:subsubhead"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sub-subheadings, as in this paragraph, are discouraged.
+ However, if you must use them, they should appear in lower case (initial
+ word capitalized) and start at the left margin on a separate line, with
+ paragraph text beginning on the following line.
+ They should be in italics.
+\end_layout
+
+\begin_layout Section
+PAPER FORMAT
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:print"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Format you paper for US letter, 
+\begin_inset Formula $8.5\times11$
+\end_inset
+
+-inch paper.
+ A4 paper is also acceptable, but please leave the extra 0.5 inch (12 mm)
+ empty at the BOTTOM of the page and follow the top and left margins as
+ specified.
+ If the last page of your paper is only partially filled, arrange the columns
+ so that they are evenly balanced if possible, rather than having one long
+ column.
+\end_layout
+
+\begin_layout Standard
+In LaTeX, to start a new column (but not a new page) and help balance the
+ last-page column lengths, you can use the command 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Formula $\backslash$
+\end_inset
+
+pagebreak
+\begin_inset Quotes erd
+\end_inset
+
+ as demonstrated on this page (see the LaTeX source below).
+\end_layout
+
+\begin_layout Section
+PAGE NUMBERING
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:page"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Please do 
+\series bold
+not
+\series default
+ paginate your paper.
+ Page numbers, session numbers, and conference identification will be inserted
+ when the paper is included in the proceedings.
+\end_layout
+
+\begin_layout Section
+ILLUSTRATIONS, GRAPHS, AND PHOTOGRAPHS
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:illust"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Illustrations must appear within the designated margins.
+ They may span the two columns.
+ If possible, position illustrations at the top of columns, rather than
+ in the middle or at the bottom.
+ Caption and number every illustration.
+ All halftone illustrations must be clear black and white prints.
+ Colors may be used, but they should be selected so as to be readable when
+ printed on a black-only printer.
+\end_layout
+
+\begin_layout Standard
+Since there are many ways, often incompatible, of including images (e.g.,
+ with experimental results) in a LaTeX document, below is an example of
+ how to do this 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lamp86"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+FOOTNOTES
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:foot"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Use footnotes sparingly (or not at all!) and place them at the bottom of
+ the column on the page on which they are referenced.
+ Use Times 9-point type, single-spaced.
+ To help your readers, avoid using footnotes altogether and include necessary
+ peripheral observations in the text (within parentheses, if you prefer,
+ as in this sentence).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "100line%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/image1.eps
+	width 8.5cm
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(a) Result 1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "48line%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/image3.eps
+	width 4cm
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(b) Results 3
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "b"
+hor_pos "c"
+has_inner_box 1
+inner_pos "b"
+use_parbox 0
+use_makebox 0
+width "48line%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Figures/image4.eps
+	width 4cm
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+(c) Result 4
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:res"
+
+\end_inset
+
+ Example of placing a figure with experimental results.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+COPYRIGHT FORMS
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:copyright"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+You must include your fully completed, signed IEEE copyright release form
+ when form when you submit your paper.
+ We 
+\series bold
+must
+\series default
+ have this form before your paper can be published in the proceedings.
+\end_layout
+
+\begin_layout Section
+REFERENCES
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:ref"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+List and number all bibliographical references at the end of the paper.
+ The references can be numbered in alphabetic order or in order of appearance
+ in the document.
+ When referring to them in the text, type the corresponding reference number
+ in square brackets as shown at the end of this sentence 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "C2"
+
+\end_inset
+
+.
+ An additional final page (the fifth page, in most cases) is allowed, but
+ must contain only references to the prior literature.
+ 
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "refs"
+options "IEEEbib"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

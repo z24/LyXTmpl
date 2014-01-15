@@ -16,16 +16,44 @@ Input article.layout
 NoStyle Chapter
 NoStyle Chapter*
 
+Style AuthorName
+      InTitle				  1
+      Margin                First_Dynamic
+      NextNoIndent          1
+      LatexType             Command
+      LatexName             name
+      LabelType             Static
+      LabelSep              M
+      LabelString           "Author Name:"
+      LabelFont
+        Series              Bold
+      EndFont
+End
+
+Style AuthorAddress
+      InTitle				  1
+      Margin                First_Dynamic
+      NextNoIndent          1
+      LatexType             Command
+      LatexName             address
+      LabelType             Static
+      LabelSep              M
+      LabelString           "Author Address:"
+      LabelFont
+        Series              Bold
+      EndFont
+End
+
 Style Keywords
-	InTitle				  0
-	Margin                First_Dynamic
-	NextNoIndent          1
-	LatexType             Command
-	LatexName             keywords
-	LabelType             Static
-	LabelSep              M
-	LabelString           "Keywords:"
-	LabelFont
-	  Series              Bold
-	EndFont
+      InTitle				  0
+      Margin                First_Dynamic
+      NextNoIndent          1
+      LatexType             Command
+      LatexName             keywords
+      LabelType             Static
+      LabelSep              M
+      LabelString           "Keywords:"
+      LabelFont
+        Series              Bold
+      EndFont
 End

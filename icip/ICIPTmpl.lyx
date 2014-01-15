@@ -6,14 +6,6 @@
 \begin_preamble
 % spconf.sty is special
 % \name and \address must be placed before \maketitle
-\name{Author(s) Name(s)}
-\address{Author Affiliation(s)}
-% For example:
-% ------------
-%\address{School\\
-%	Department\\
-%	Address}
-%
 % Two addresses (uncomment and modify for two-address case).
 % ----------------------------------------------------------
 %\twoauthors
@@ -99,6 +91,14 @@
 
 \begin_layout Title
 AUTHOR GUIDELINES FOR ICIP 2014 PROCEEDINGS MANUSCRIPTS
+\end_layout
+
+\begin_layout AuthorName
+Author(s) Name(s)
+\end_layout
+
+\begin_layout AuthorAddress
+Author Affiliation(s)
 \end_layout
 
 \begin_layout Abstract

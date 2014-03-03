@@ -1,0 +1,28 @@
+# Makefile template for LyX based paper writing
+# by Youjie Zhou
+
+BASE = YourPaperFileBaseName
+
+LYX = $(BASE).lyx
+TEX = $(BASE).tex
+BIB = $(BASE).bib
+PDF = $(BASE).pdf
+
+pdf: $(LYX)
+	lyx -e pdf $^
+
+$(TEX): $(LYX)
+	lyx -e latex $^
+
+tex: $(TEX) $(BIB)
+	latex $(BASE)
+	bibtex $(BASE)
+	latex $(BASE)
+	latex $(BASE)
+	dvipdf $(BASE)
+
+clean:
+	rm -f $(TEX) $(BASE).aux $(BASE).bbl $(BASE).blg $(BASE).log $(BASE).dvi
+
+pack: tex
+	tar czf $(BASE).tar.gz $(LYX) $(TEX) $(BIB) $(PDF) fig/

@@ -1,0 +1,486 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass usc-thesis
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout USCTitle
+A Proof That Really Fits in the Margin
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{Youjie}{Zhou}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The Graduate School provides a list of official degrees and fields: http://grads
+chool.sc.edu/prospective/graduate_programs.asp
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Degree
+Doctor of Philosophy
+\end_layout
+
+\begin_layout Field
+Computer Science and Engineering
+\end_layout
+
+\begin_layout College
+College of Engineering and Computing
+\end_layout
+
+\begin_layout Year
+2014
+\end_layout
+
+\begin_layout OtherDegrees
+Bachelor of Engineering
+\begin_inset Newline newline
+\end_inset
+
+East China Normal University 2010
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The last newline above is ESSENTIAL!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+advisor{Dr.}{Song Wang}{Major Professor}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+readera{Dr.}{Lili Ju}{Co-Advisor}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+readerb{Dr.}{Srihari Nelakuditi}{Committee Member}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+readerc{Dr.}{Yan Tong}{Committee Member}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+readerd{Dr.}{Michael N.
+ Huhns}{Committee Member}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+BE SURE TO CHECK THE NAME OF THE PERSON CURRENTLY HOLDING THIS POSITION!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Dean
+Lacy Ford
+\end_layout
+
+\begin_layout ---CopyrightPage---
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+abstract{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "Abstract.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+acknowledgments{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "Thanks.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+dedication{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "Dedication.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout PreambleFrontMatter
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+preface{
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand input
+filename "Preface.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Optional
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ---ListOfTables---
+
+\end_layout
+
+\begin_layout ---ListOfFigures---
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "Introduction.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "self"
+options "amsplain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use ---Appendices-- if you have more than one appendix.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ---Appendix---
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Use 
+\backslash
+input instead of 
+\backslash
+include for appendices.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "Appendix.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

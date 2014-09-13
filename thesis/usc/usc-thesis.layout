@@ -1,0 +1,120 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[uscthesis, memoir]{usc-thesis (University of South Carolina)}
+# USCThesis layout
+# Author : Youjie Zhou <youjiezhou@gmail.com>
+
+Input memoir.layout
+
+Format      35
+Sides       1
+Columns     1
+
+Preamble
+EndPreamble
+
+Style USCTitle
+    InPreamble      1
+    LatexType       Command
+    LatexName       title
+    Margin          Static
+    Align           Center
+    LabelType       No_Label
+    Font
+      Size          Largest
+    EndFont
+End
+
+Style PreambleFrontMatter
+    InPreamble      1
+    Margin          First_Dynamic
+    NextNoIndent    1
+    LabelType       Static
+    LabelSep        M
+    LabelString     "Preamble Front Matter:"
+    LabelFont
+      Series        Bold
+    EndFont
+End
+
+Style Degree
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       degree
+    LabelString     "Degree:"
+End
+
+Style Field
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       field
+    LabelString     "Field:"
+End
+
+Style College
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       college
+    LabelString     "College:"
+End
+
+Style Year
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       date
+    LabelString     "Year:"
+End
+
+Style OtherDegrees
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       otherdegrees
+    Newline         1
+    LabelString     "Other Degrees:"
+End
+
+Style Dean
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       dean
+    LabelString     "Graduate School Dean:"
+End
+
+Style ---CopyrightPage---
+    InPreamble      1
+    KeepEmpty       1
+    LatexType       Command
+    LatexName       copyrightpage
+    Margin          Dynamic
+    Align           Block
+    LabelType       Static
+    LabelString     "---CopyrightPage---"
+    LabelFont
+      Color         Blue
+    EndFont
+End
+
+Style ---ListOfTables---
+    CopyStyle       ---CopyrightPage---
+    LatexName       makeLoT
+    LabelString     "---ListOfTables---"
+End
+
+Style ---ListOfFigures---
+    CopyStyle       ---CopyrightPage---
+    LatexName       makeLoF
+    LabelString     "---ListOfFigures---"
+End
+
+Style ---Appendix---
+    CopyStyle       ---CopyrightPage---
+    InPreamble      0
+    LatexName       Appendix
+    LabelString     "---Appendix---"
+End
+
+Style ---Appendices---
+    CopyStyle       ---CopyrightPage---
+    InPreamble      0
+    LatexName       Appendices
+    LabelString     "---Appendices---"
+End

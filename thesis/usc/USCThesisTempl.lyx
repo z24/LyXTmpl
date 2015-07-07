@@ -418,6 +418,22 @@ Optional
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+For landscape figures, you need to rotate the PDF page.
+ Add 
+\backslash
+usepackage{pdflscape} into the preamble.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "Introduction.lyx"

@@ -116,7 +116,7 @@ College of Engineering and Computing
 \end_layout
 
 \begin_layout Year
-2014
+2015
 \end_layout
 
 \begin_layout OtherDegrees
@@ -426,6 +426,22 @@ For landscape figures, you need to rotate the PDF page.
  Add 
 \backslash
 usepackage{pdflscape} into the preamble.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+To make sure figures and texts locate inside the page margin, you can visualize
+ page margin on your PDF by adding 
+\backslash
+usepackage[showframe, pass]{geometry} into the preamble.
 \end_layout
 
 \end_inset

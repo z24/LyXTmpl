@@ -1,0 +1,120 @@
+#% Do not delete the line below; configure depends on this
+#  \DeclareLaTeXClass[ukthesis, memoir]{uky-thesis (University of Kentucky)}
+# UKYThesis layout
+# Author : Youjie Zhou <youjiezhou@gmail.com>
+
+Input memoir.layout
+
+Format      35
+Sides       1
+Columns     1
+
+Preamble
+EndPreamble
+
+Style PreambleFrontMatter
+    InPreamble      1
+    Margin          Dynamic
+    LabelType       Static
+    LabelSep        M
+    LabelString     "Preamble Front Matter:"
+    LabelFont
+      Series        Bold
+    EndFont
+End
+
+Style LatexCommands
+    CopyStyle       PreambleFrontMatter
+    InPreamble      0
+    KeepEmpty       1
+    LatexType       Command
+    Align           Center
+    LabelFont
+      Color         Blue
+    EndFont    
+End
+
+Style FrontMatter
+    CopyStyle       LatexCommands
+    LatexName       frontmatter
+    LabelString     "---FrontMatter---"
+End
+
+Style MainMatter
+    CopyStyle       LatexCommands
+    LatexName       mainmatter
+    LabelString     "---MainMatter---"
+End
+
+Style BackMatter
+    CopyStyle       LatexCommands
+    LatexName       backmatter
+    LabelString     "---BackMatter---"
+End
+
+Style Copyright
+    CopyStyle       LatexCommands
+    LatexName       copyrightnotice
+    LabelString     "---CopyrightNotice---"
+End
+
+Style DGS
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       dgs
+    LabelString     "DGS:"
+End
+
+Style Advisor
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       setadvisor
+    LabelString     "Advisor:"
+End
+
+Style College
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       setthecollege
+    LabelString     "College:"
+End
+
+Style Department
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       setthedept
+    LabelString     "Department:"
+End
+
+Style Keywords
+    CopyStyle       PreambleFrontMatter
+    LatexType       Command
+    LatexName       keywords
+    LabelString     "Keywords:"
+End
+
+Style Environment
+    InPreamble      0
+    KeepEmpty       0
+    LatexType       Environment
+    Margin          Dynamic
+    Align           Block    
+    LabelType       Static
+    LabelSep        M
+    LabelString     "Environment:"
+    LabelFont
+      Series        Bold
+    EndFont
+End
+
+Style Acknowledgments
+    CopyStyle       Environment
+    LatexName       acknowledgments
+    LabelString     "Acknowledgments:"
+End
+
+Style Dedication
+    CopyStyle       Environment
+    LatexName       dedication
+    LabelString     "Dedication:"
+End

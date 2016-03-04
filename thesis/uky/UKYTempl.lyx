@@ -3,10 +3,6 @@
 \begin_document
 \begin_header
 \textclass uky-thesis
-\begin_preamble
-% LyX uses Babel by default; conventional renew won't work.
-\AtBeginDocument{\renewcommand{\contentsname}{TABLE OF CONTENTS}}
-\end_preamble
 \options final
 \use_default_options false
 \maintain_unincluded_children false
@@ -29,13 +25,13 @@
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize default
+\paperfontsize 11
 \spacing single
 \use_hyperref true
 \pdf_bookmarks true
 \pdf_bookmarksnumbered false
-\pdf_bookmarksopen false
-\pdf_bookmarksopenlevel 1
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 2
 \pdf_breaklinks false
 \pdf_pdfborder true
 \pdf_colorlinks false
@@ -155,6 +151,22 @@ keywords go here
 status open
 
 \begin_layout Plain Layout
+To make sure figures and texts locate inside the page margin, you can visualize
+ page margin on your PDF by adding 
+\backslash
+usepackage[showframe, pass]{geometry} into the preamble.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Page order is defined in: http://www.research.uky.edu/gs/CurrentStudents/electronic
 _dissertation_instructions.html
 \end_layout
@@ -179,27 +191,6 @@ filename "Dedication.lyx"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% Ack page must be page 3.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-setcounter{page}{3}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Acknowledgments
 \begin_inset CommandInset include
 LatexCommand input
@@ -210,45 +201,7 @@ filename "Acknowledgments.lyx"
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-% TOC w/o indexing itself, while remaining in the PDF bookmark.
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{KeepFromToc}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-pdfbookmark{Table of Contents (TOC)}{toc}
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-tableofcontents
-\end_layout
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{KeepFromToc}
-\end_layout
-
-\end_inset
-
+\begin_layout ThesisTableOfContents
 
 \end_layout
 

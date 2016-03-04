@@ -10,6 +10,11 @@ Sides       1
 Columns     1
 
 Preamble
+% LyX uses Babel by default; conventional renew won't work.
+\AtBeginDocument{\renewcommand{\contentsname}{TABLE OF CONTENTS}}
+
+% Allow numbering subsections.
+\maxsecnumdepth{subsection}
 EndPreamble
 
 Style PreambleFrontMatter
@@ -32,6 +37,12 @@ Style LatexCommands
     LabelFont
       Color         Blue
     EndFont    
+End
+
+Style ThesisTableOfContents
+    CopyStyle       LatexCommands
+    LatexName       thesistableofcontents
+    LabelString     "---TableOfContents---"
 End
 
 Style FrontMatter

@@ -4,6 +4,7 @@
 \begin_header
 \textclass uky-thesis
 \use_default_options false
+\master UKYTempl.lyx
 \maintain_unincluded_children false
 \language english
 \language_package default

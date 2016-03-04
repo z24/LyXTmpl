@@ -177,6 +177,15 @@
   \renewcommand{\@thetitle}{#1}
 }
 \fi
+
+% (Youjie Zhou): TOC w/o indexing itself, while remaining in the PDF bookmark.
+\newcommand{\thesistableofcontents}{
+  \begin{KeepFromToc}
+    \pdfbookmark{Table of Contents (TOC)}{toc}
+    \tableofcontents
+  \end{KeepFromToc}
+}
+
 \newcommand{\@theabstract}{}
 \newcommand{\@thekeywords}{}
 \newcommand{\@theadvisor}{}
@@ -457,6 +466,9 @@
 
 \newenvironment{acknowledgments}{
   \clearpage
+  %% (Youjie Zhou): Ack page must be page iii.
+  \setcounter{page}{3}
+
   %% (Youjie Zhou): Manually add ack into TOC.
   % \chapterstyle{nonumbers}
   \chapter*[Acknowledgments]{}
